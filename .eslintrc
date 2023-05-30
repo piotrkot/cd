@@ -1,0 +1,11 @@
+{
+  "extends": ["airbnb-base"],
+  "parserOptions": {
+    "ecmaVersion": 2023
+  },
+  "rules": {
+    "import/extensions": "off",
+    "import/prefer-default-export": "off",
+  }
+}
+

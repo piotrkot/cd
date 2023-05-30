@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  database:
+    image: 'postgres:15'
+    ports:
+      - 5433:5432
+    environment:
+      POSTGRES_USER: cduser
+      POSTGRES_PASSWORD: cdpass
+      POSTGRES_DB: cddb

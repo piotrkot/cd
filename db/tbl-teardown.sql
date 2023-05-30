@@ -1,0 +1,2 @@
+DROP TABLE IF EXISTS ratings, users, dishes CASCADE;
+DROP EXTENSION IF EXISTS pgcrypto;
